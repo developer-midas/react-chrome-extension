@@ -44,14 +44,6 @@ function CheckAndInput() {
           }}
         />
       </label>
-
-      
-
-      {/* Display current state */}
-      <div style={{ marginTop: "20px" }}>
-        <p>Checkbox is {isChecked ? "Checked" : "Unchecked"}</p>
-        <p>Input Value: {inputValue}</p>
-      </div>
     </div>
   );
 }
