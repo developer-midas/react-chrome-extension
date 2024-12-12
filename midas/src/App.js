@@ -4,13 +4,13 @@ import "./App.css";
 
 function App() {
   const handleClick = () => {
-    alert("Hello! This is a simple React Chrome extension.");
+    alert("React Chrome extension.");
   };
 
   return (
     <div className="App" style={{ padding: "20px", textAlign: "center" }}>
       
-      <h1>Welcome to My Chrome Extension</h1>
+      <h1>Chrome Extension  Demo</h1>
       <p>This is a simple React-based Chrome extension popup.</p>
       <CheckAndInput />
       <button
