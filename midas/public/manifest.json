@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Simple React Chrome Extension",
+  "version": "1.0",
+  "description": "A basic Chrome extension using React.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": []
+}
