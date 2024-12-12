@@ -17,7 +17,7 @@ function CheckAndInput() {
 
   return (
     <div style={{ padding: "20px", maxWidth: "300px", margin: "0 auto" }}>
-      <h3>React Checkbox and Input Example</h3>
+      <h3>React Checkbox</h3>
 
       {/* Checkbox */}
       <label style={{ display: "block", marginBottom: "10px" }}>
@@ -28,43 +28,7 @@ function CheckAndInput() {
         />
         Check me
       </label>
-
-      {/* Input */}
-      <label style={{ display: "block", marginBottom: "10px" }}>
-        <span>Enter text:</span>
-        <input
-          type="text"
-          value={inputValue}
-          onChange={handleInputChange}
-          style={{
-            marginLeft: "10px",
-            padding: "5px",
-            border: "1px solid #ccc",
-            borderRadius: "5px",
-          }}
-        />
-      </label>
-
-      <label style={{ display: "block", marginBottom: "10px" }}>
-        <span>Enter text:</span>
-        <input
-          type="text"
-          value={inputValue}
-          onChange={handleInputChange}
-          style={{
-            marginLeft: "10px",
-            padding: "5px",
-            border: "1px solid #ccc",
-            borderRadius: "5px",
-          }}
-        />
-      </label>
-
-      {/* Display current state */}
-      <div style={{ marginTop: "20px" }}>
-        <p>Checkbox is {isChecked ? "Checked" : "Unchecked"}</p>
-        <p>Input Value: {inputValue}</p>
-      </div>
+      
     </div>
   );
 }
