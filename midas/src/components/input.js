@@ -45,6 +45,21 @@ function CheckAndInput() {
         />
       </label>
 
+      <label style={{ display: "block", marginBottom: "10px" }}>
+        <span>Enter text:</span>
+        <input
+          type="text"
+          value={inputValue}
+          onChange={handleInputChange}
+          style={{
+            marginLeft: "10px",
+            padding: "5px",
+            border: "1px solid #ccc",
+            borderRadius: "5px",
+          }}
+        />
+      </label>
+
       {/* Display current state */}
       <div style={{ marginTop: "20px" }}>
         <p>Checkbox is {isChecked ? "Checked" : "Unchecked"}</p>
